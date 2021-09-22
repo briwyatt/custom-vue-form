@@ -28,8 +28,7 @@ export default {
 </script>
 
 <template>
-    <div
-    class="is-flex">
+    <div class="is-flex">
         <div 
             class="box content mx-2" 
             :class="{'is-chosen' : value.includes('value 1')}"
